@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file_owner=$(stat -c "%U" hello)
+
+if [ "$file_owner" = "guillaume" ]; then
+    chown betty hello
+    echo "Owner of 'hello' changed to betty."
+else
+    echo "The file 'hello' is not owned by guillaume."
+fi
