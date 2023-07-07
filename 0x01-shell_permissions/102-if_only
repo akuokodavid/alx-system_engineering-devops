@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(stat -c "%U" filename)" = "guillaume" ] && chown betty filename &&
+[ "$(stat -c "%U" hello)" = "guillaume" ] && chown betty hello
