@@ -1,1 +1,1 @@
-This repository is to help me script commands in shell
+This is to check my competence on shell redirection
